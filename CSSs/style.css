@@ -40,6 +40,7 @@ nav {
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 999;
 }
 
 nav img {
@@ -178,4 +179,321 @@ nav .navigation ul li a:hover {
     font-size: 1rem;
     font-weight: 400;
     color:  rgb(70,70,87);
+}
+
+/*Courses*/
+
+#course
+{
+    padding: 8vw 8vw 3vw 8vw;
+    text-align: center;
+}
+
+#course .course-box
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#course .courses
+{
+    text-align: start;
+    background: #F9F9FF;
+    height: 100%;
+    position: relative;
+}
+
+#course .courses img
+{
+    height: 60%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#course .courses .details
+{
+    padding: 15px 15px 0 15px;
+}
+
+#course .courses .details i
+{
+    color: #FDC900;
+    font-size: 20px;
+}
+
+#course .courses .cost
+{
+    background-color: rgb(74,74,134);
+    color: #fff;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+
+}
+
+/*Registration*/
+
+#registration
+{
+    padding: 6vw;
+    background-image: linear-gradient(rgba(99,112,250,0.5),
+    rgba(81,91,250,0.5)), url("../Images/registration.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#registration .reminder
+{
+    color: #fff;
+}
+
+#registration .reminder h1
+{
+    color: #fff;
+}
+
+#registration .reminder .span
+{
+    color: #F9F9FF;
+}
+
+#registration .reminder .time
+{
+    display: flex;
+    margin-top: 40px;
+}
+
+#registration .reminder .time .date
+{
+    text-align: center;
+    padding: 13px 33px;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4x);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    margin: 0 5px 10px 5px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#registration .form
+{
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+#registration .form input
+{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(84, 40, 241);
+    outline: none;
+    max-height: 65px;
+    transition: max-height 0.5s;
+}
+
+#registration .form input::placeholder
+{
+    color: #413c3c;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+#registration .form a.yellow
+{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #fff;
+    background: #FDC93B;
+    transition: 0.3s ease;
+}
+
+#registration .form a.yellow:hover
+{
+    color: rgba(21,21,100);
+    background: yellow;
+}
+
+/*Workers*/
+
+#workers
+{
+    padding: 8vw 8vw 2vw 8vw;
+    text-align: center;
+}
+
+#workers .worker-box
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#workers .worker-box .profile
+{
+    background: #fafaf1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+#workers .worker-box .profile img
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.pro-links
+{
+    margin-top: 10px;
+}
+
+.pro-links i
+{
+    padding: 10px 13px;
+    border: 1px solid rgb(21,21,100);
+    border-radius: 50%;
+    color: rgb(21,21,100);
+    transition: ease 0.3s;
+}
+
+.pro-links i:hover
+{
+    background-color: rgb(21,21,100);
+    color: #fff;
+}
+
+/*Footer*/
+
+footer
+{
+    padding: 8vw;
+    background-color: #101c39;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col
+{
+    padding-bottom: 40px;
+}
+
+footer h3
+{
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li
+{
+    list-style: none;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+footer li:hover
+{
+    color: #FDC900;
+}
+
+footer p
+{
+    color: #fff;
+}
+
+footer .subscribe
+{
+    margin-top: 20px;
+}
+
+footer input
+{
+    padding: 15px 12px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+footer .subscribe a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FDC900;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+footer .subscribe a:hover
+{
+    color: #FDC900;
+    background-color: #fff;
+}
+
+footer .copyright
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright p
+{
+    color: #fff;
+}
+
+footer .copyright .pro-links i
+{
+    background-color: #fff;
+    color: #000;
+}
+
+footer .copyright .pro-links i:hover
+{
+    background-color: #FDC900;
+    color: #fff;
+}
+
+@media (max-width: 769px) {
+
+    nav {
+        padding: 15px 20px;
+    }
+
 }
