@@ -13,3 +13,11 @@ var x = setInterval(function() {
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
 },1000);
+
+document.getElementById("menu-btn").addEventListener("click", function() {
+    document.querySelector(".navigation ul").classList.add("active");
+});
+
+document.getElementById("menu-close").addEventListener("click", function() {
+    document.querySelector(".navigation ul").classList.remove("active");
+});
