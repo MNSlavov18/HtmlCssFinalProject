@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--    Icons  in the features section -->
+    <script src="https://kit.fontawesome.com/2bb3dd07ac.js" crossorigin="anonymous"></script>
+
+
+
+    <title>Mario's Academy</title>
+
+    <!--    Css stylesheet-->
+    <link rel="stylesheet" href="../CSSs/style.css">
+
+</head>
+
+<body>
+
+<!--    Navigation-->
+
+<nav>
+    <img src="../Images/logo.png" alt="">
+    <div class = "navigation">
+
+        <ul>
+            <i class="fa-regular fa-circle-xmark" id="menu-close"></i>
+            <li><a href="index.html"  >Home</a></li>
+            <li><a class="active"  href="#">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-btn"></i>
+    </div>
+</nav>
+
+<!--Home-->
+
+<section id = "about-home">
+    <h2>About Mario's Academy</h2>
+</section>
+
+<!--About Mario's Academy-->
+
+<section id = "about-container">
+    <div class="about-img">
+        <img src="../Images/about1.jpg" alt="">
+    </div>
+
+    <div class="about-text">
+        <h2>Welcome to Mario's Academy,  Your Path to Success Starts Here!</h2>
+        <p>We provide top-quality courses, expert guidance, and globally recognized certifications to help you achieve your goals.</p>
+        <div class="about-fe">
+            <img src="../Images/feature1.jpg" alt="">
+            <div class="fe-text">
+                <h5>400+ courses</h5>
+                <p>Explore a wide range of courses designed to help you grow and succeed.</p>
+            </div>
+        </div>
+            <div class="about-fe">
+                <img src="../Images/feature2.jpg" alt="">
+                <div class="fe-text">
+                    <h5>Lifetime Access</h5>
+                    <p>Enjoy lifetime access to our courses and learn at your own pace. </p>
+                </div>
+        </div>
+    </div>
+</section>
+<!--Features-->
+
+<section id = "features">
+    <h1>Features</h1>
+    <div class="fea-base">
+        <div class="fea-box">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Scholarship Facility</h3>
+            <p>Our Scholarship Facility offers financial support to help students achieve their academic goals.
+                Join us and unlock opportunities for a brighter future!</p>
+        </div>
+
+        <div class="fea-box">
+            <i class="fa-brands fa-studiovinari"></i>
+            <h3>Online course</h3>
+            <p>Learn at your own pace with our online courses. Gain valuable skills and knowledge anytime,
+                anywhere—start your journey today!</p>
+        </div>
+
+        <div class="fea-box">
+            <i class="fa-solid fa-globe"></i>
+            <h3>Global Certification</h3>
+            <p>Earn a globally recognized certification and showcase your expertise to the world. Take the next
+                step in your career today!</p>
+        </div>
+    </div>
+</section>
+
+<!--Trusted By-->
+
+<section id="trusted">
+    <h1>Trusted By</h1>
+    <p>Trusted by thousands of learners and professionals worldwide, our academy is committed to delivering high-quality education. Join a community that values excellence and success.</p>
+    <div class="trusted-img">
+        <img src="../Images/trusted1.jpg" alt="">
+        <img src="../Images/trusted2.jpg" alt="">
+        <img src="../Images/trusted3.jpg" alt="">
+        <img src="../Images/trusted4.jpg" alt="">
+        <img src="../Images/trusted5.jpg" alt="">
+        <img src="../Images/trusted6.jpg" alt="">
+    </div>
+</section>
+
+<!--Footer-->
+
+<footer>
+    <div class="footer-col">
+        <h3>Top Products</h3>
+        <ul>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Features</h3>
+        <ul>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers, not a single spam.</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Your Email Address">
+            <a href="#" class="btn">SUBSCRIBE</a>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @2023 All Rights Reserved</p>
+            <div class="pro-links">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="../JavaScrips/index.js"></script>
+</body>
+</html>
