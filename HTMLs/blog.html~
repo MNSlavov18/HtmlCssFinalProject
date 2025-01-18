@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--    Icons  in the features section -->
+    <script src="https://kit.fontawesome.com/2bb3dd07ac.js" crossorigin="anonymous"></script>
+
+
+
+    <title>Mario's Academy</title>
+
+    <!--    Css stylesheet-->
+    <link rel="stylesheet" href="../CSSs/style.css">
+
+</head>
+
+<body>
+
+<!--    Navigation-->
+
+<nav>
+    <img src="../Images/logo.png" alt="">
+    <div class = "navigation">
+
+        <ul>
+            <i class="fa-regular fa-circle-xmark" id="menu-close"></i>
+            <li><a href="index.html"  >Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a class="active" href="#">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-btn"></i>
+    </div>
+</nav>
+
+<!--Home-->
+
+<section id = "about-home">
+    <h2>Blog</h2>
+</section>
+
+<!--This Blog-->
+
+<section id="blog-container">
+    <div class="blogs">
+        <div class="post">
+            <img src="../Images/blog1.jpg" alt="">
+            <h3>Learn Web Development In The Easiest Way </h3>
+            <p>Web development has never been more accessible! With the right guidance and structured learning, anyone can master the skills needed to build stunning websites and powerful applications.
+                Whether you're a beginner or looking to refine your expertise, our courses make the process simple and engaging. Start your journey today and bring your ideas to life!</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="post">
+            <img src="../Images/blog2.jpg" alt="">
+            <h3>Cutting-Edge Curriculum</h3>
+            <p>Stay ahead in the fast-evolving tech industry with our up-to-date and industry-relevant courses. Learn the latest programming languages, frameworks, and tools designed to meet current market demands.
+                Our expert-led curriculum ensures you gain practical knowledge that directly applies to real-world IT challenges.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="post">
+            <img src="../Images/blog3.jpg" alt="">
+            <h3>Hands-On Projects</h3>
+            <p>Master IT skills through hands-on projects and real-world applications. Our courses emphasize practical learning, allowing you to build and test your own applications, solve complex problems, and develop a strong portfolio.
+                Gain the experience needed to confidently tackle challenges in the tech industry</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="post">
+            <img src="../Images/blog4.jpg" alt="">
+            <h3>Industry-Recognized Certifications </h3>
+            <p>Stand out in the competitive IT job market with globally recognized certifications. Our programs provide industry-approved credentials that validate your expertise and open doors to new career opportunities.
+                Whether you're starting your journey or advancing your career, our certifications help you showcase your skills to potential employers</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+
+    <div class="categories">
+        <h2>Categories</h2>
+        <hr>
+        <a href="#">Web Development</a>
+        <hr>
+        <a href="#">Web Design</a>
+        <hr>
+        <a href="#">App Development</a>
+        <hr>
+        <a href="#">Frontend Web</a>
+        <hr>
+        <a href="#">Pyton Programming</a>
+        <hr>
+        <a href="#">JavaScript Hacks</a>
+    </div>
+</section>
+
+<!--Footer-->
+
+<footer>
+    <div class="footer-col">
+        <h3>Top Products</h3>
+        <ul>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Features</h3>
+        <ul>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <ul>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers, not a single spam.</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Your Email Address">
+            <a href="#" class="btn">SUBSCRIBE</a>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @2023 All Rights Reserved</p>
+            <div class="pro-links">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="../JavaScrips/index.js"></script>
+</body>
+</html>
